@@ -13,7 +13,7 @@
 
 FT6336U ft6336u; 
 
-static uint8_t intSattus = false; // TP interrupt generation flag.
+volatile uint8_t intSattus = false; // TP interrupt generation flag.
 
 void setup(void) 
 {
